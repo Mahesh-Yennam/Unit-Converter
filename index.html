@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFQ8M0VSFN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RFQ8M0VSFN');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universal Unit Converter Pro — Gamility Tools</title>
+  <meta name="description" content="Free high-precision metric and imperial unit converter. Convert length, weight, temperature, area, volume, speed, digital data, and time in real time.">
+  <meta name="keywords" content="unit converter, metric to imperial, length converter, weight converter, temperature converter, volume converter, data storage converter">
+  <meta name="theme-color" content="#090e1a">
+    <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Universal Unit Converter Pro — Gamility Tools">
+  <meta property="og:description" content="Free high-precision metric and imperial unit converter. Convert length, weight, temperature, area, volume, speed, digital data, and time in real time.">
+  <meta property="og:image" content="preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Universal Unit Converter Pro — Gamility Tools">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Universal Unit Converter Pro — Gamility Tools">
+  <meta name="twitter:description" content="Free high-precision metric and imperial unit converter. Convert length, weight, temperature, area, volume, speed, digital data, and time in real time.">
+  <meta name="twitter:image" content="preview.png">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Return Ribbon -->
+  <header class="top-nav-ribbon" role="banner">
+    <div class="ribbon-container">
+      <div class="ribbon-left">
+        <a href="https://mahesh-yennam.github.io/Gamility/" class="ribbon-brand" title="Gamility Home">
+          <svg class="brand-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="6" width="20" height="12" rx="4"></rect>
+            <path d="M6 12h4m-2-2v4m7-3h.01m3 2h.01"></path>
+          </svg>
+          <span class="brand-name">Gamility</span>
+          <span class="brand-badge">Tools</span>
+        </a>
+      </div>
+      <div class="ribbon-right">
+        <a href="https://mahesh-yennam.github.io/Gamility/tools.html" class="ribbon-back-btn" title="Return to Utility Tools Hub">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          <span>Back to Tools</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main App Shell -->
+  <main class="app-main" id="main-content">
+    <div class="app-container">
+
+      <!-- Tool Header -->
+      <header class="tool-hero">
+        <div class="hero-header-row">
+          <div class="hero-title-group">
+            <div class="tool-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M16 8l-8 8m0-8l8 8"></path>
+              </svg>
+              <span>Calculators &amp; Math</span>
+            </div>
+            <h1 class="hero-title">Universal Unit Converter Pro</h1>
+            <p class="hero-desc">High-precision metric &amp; imperial calculation engine with live two-way synchronization and comparative matrices.</p>
+          </div>
+          <div class="privacy-pill" title="All calculations execute locally. No server requests.">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            <span>100% In-Browser &amp; Private</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Category Filter Tabs -->
+      <nav class="category-tabs-wrapper" aria-label="Measurement Categories">
+        <div class="category-tabs" role="tablist">
+          <button class="cat-tab active" data-cat="length" role="tab" id="tab-length">
+            <span class="cat-icon">📏</span>
+            <span class="cat-text">Length</span>
+          </button>
+          <button class="cat-tab" data-cat="weight" role="tab" id="tab-weight">
+            <span class="cat-icon">⚖️</span>
+            <span class="cat-text">Weight / Mass</span>
+          </button>
+          <button class="cat-tab" data-cat="temperature" role="tab" id="tab-temperature">
+            <span class="cat-icon">🌡️</span>
+            <span class="cat-text">Temperature</span>
+          </button>
+          <button class="cat-tab" data-cat="area" role="tab" id="tab-area">
+            <span class="cat-icon">📐</span>
+            <span class="cat-text">Area</span>
+          </button>
+          <button class="cat-tab" data-cat="volume" role="tab" id="tab-volume">
+            <span class="cat-icon">🧪</span>
+            <span class="cat-text">Volume</span>
+          </button>
+          <button class="cat-tab" data-cat="speed" role="tab" id="tab-speed">
+            <span class="cat-icon">🚀</span>
+            <span class="cat-text">Speed</span>
+          </button>
+          <button class="cat-tab" data-cat="data" role="tab" id="tab-data">
+            <span class="cat-icon">💾</span>
+            <span class="cat-text">Digital Data</span>
+          </button>
+          <button class="cat-tab" data-cat="time" role="tab" id="tab-time">
+            <span class="cat-icon">⏱️</span>
+            <span class="cat-text">Time</span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Primary Converter Stage -->
+      <section class="converter-stage" aria-label="Interactive Two-Way Converter">
+        <div class="converter-card">
+          
+          <div class="converter-body">
+            
+            <!-- Left Unit Box -->
+            <div class="unit-box">
+              <div class="unit-box-header">
+                <label for="input-from" class="box-label">From</label>
+                <span class="unit-symbol-badge" id="badge-from-symbol">m</span>
+              </div>
+              <div class="input-container">
+                <input 
+                  type="number" 
+                  id="input-from" 
+                  class="unit-number-input" 
+                  value="1" 
+                  step="any"
+                  aria-label="Source Unit Value"
+                >
+              </div>
+              <div class="select-container">
+                <select id="select-from" class="unit-select" aria-label="Select Source Unit">
+                  <!-- Dynamically populated -->
+                </select>
+              </div>
+            </div>
+
+            <!-- Center Swap Action -->
+            <div class="swap-action-wrapper">
+              <button class="btn-swap-units" id="btn-swap" type="button" title="Swap input and output units">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7 16V4m0 0L3 8m4-4l4 4m6 4v12m0 0l4-4m-4 4l-4-4"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Right Unit Box -->
+            <div class="unit-box">
+              <div class="unit-box-header">
+                <label for="input-to" class="box-label">To</label>
+                <span class="unit-symbol-badge" id="badge-to-symbol">ft</span>
+              </div>
+              <div class="input-container">
+                <input 
+                  type="number" 
+                  id="input-to" 
+                  class="unit-number-input" 
+                  value="3.28084" 
+                  step="any"
+                  aria-label="Target Unit Value"
+                >
+              </div>
+              <div class="select-container">
+                <select id="select-to" class="unit-select" aria-label="Select Target Unit">
+                  <!-- Dynamically populated -->
+                </select>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Formula & Calculation Equation Bar -->
+          <div class="formula-banner">
+            <div class="formula-icon">📐</div>
+            <div class="formula-text-group">
+              <span class="formula-label">Conversion Formula:</span>
+              <span class="formula-value" id="formula-display">1 Meter = 3.28084 Feet</span>
+            </div>
+            <button class="btn-copy-result" id="btn-copy-result" type="button" title="Copy result to clipboard">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>Copy</span>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Settings & Controls Toolbar -->
+      <section class="toolbar-section">
+        <div class="toolbar-inner">
+          
+          <!-- Decimal Precision -->
+          <div class="tool-setting-group">
+            <label for="select-precision" class="setting-label">Precision:</label>
+            <select id="select-precision" class="setting-select">
+              <option value="auto">Auto (Best Fit)</option>
+              <option value="2">2 Decimals</option>
+              <option value="4" selected>4 Decimals</option>
+              <option value="6">6 Decimals</option>
+              <option value="8">8 Decimals</option>
+            </select>
+          </div>
+
+          <!-- Digital Data Base Selector (Conditional for Data mode) -->
+          <div class="tool-setting-group" id="group-data-mode" style="display: none;">
+            <label for="select-data-base" class="setting-label">Data Mode:</label>
+            <select id="select-data-base" class="setting-select">
+              <option value="decimal" selected>Decimal (1 KB = 1000 B)</option>
+              <option value="binary">Binary (1 KiB = 1024 B)</option>
+            </select>
+          </div>
+
+          <!-- Quick Presets Carousel -->
+          <div class="presets-container">
+            <span class="setting-label">Presets:</span>
+            <div class="presets-chips" id="presets-chips-container">
+              <!-- Dynamically rendered per category -->
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- All-Units Instant Comparative Matrix -->
+      <section class="matrix-section">
+        <div class="matrix-card">
+          <div class="matrix-header">
+            <div class="matrix-title-group">
+              <h2 class="matrix-title">All-Units Comparative Matrix</h2>
+              <span class="matrix-subtitle" id="matrix-subtitle">Equivalent values across all length units simultaneously</span>
+            </div>
+            <span class="matrix-hint">Click any card to select as target unit</span>
+          </div>
+          <div class="matrix-grid" id="comparison-grid">
+            <!-- Dynamic comparison cards rendered by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Platform Footer -->
+      <footer class="tool-footer">
+        <p class="footer-copy">Copyright &copy; 2026 Gamility. All rights reserved. &bull; 100% In-Browser Precision Conversion</p>
+      </footer>
+
+    </div>
+  </main>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toast" role="status" aria-live="polite">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toast-message">Result copied to clipboard!</span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
